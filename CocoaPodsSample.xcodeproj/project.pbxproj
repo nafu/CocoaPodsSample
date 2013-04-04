@@ -19,6 +19,7 @@
 				<string>13935CC1170DD447000C1F02</string>
 				<string>13935CC0170DD447000C1F02</string>
 				<string>C51A390C741541EBA79DE5E4</string>
+				<string>A732D7728E3D4CCE8951F2F8</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -190,6 +191,7 @@
 				<string>13935CC6170DD447000C1F02</string>
 				<string>13935CE6170DD447000C1F02</string>
 				<string>1B734D050781431884E4C32E</string>
+				<string>1A99B7B2719B4839B53F4D59</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -535,6 +537,7 @@
 				<string>13935CE7170DD447000C1F02</string>
 				<string>13935CE8170DD447000C1F02</string>
 				<string>13935CE9170DD447000C1F02</string>
+				<string>DDC84063D0344363B01378F5</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -585,6 +588,7 @@
 				<string>13935CE1170DD447000C1F02</string>
 				<string>13935CE2170DD447000C1F02</string>
 				<string>13935CE3170DD447000C1F02</string>
+				<string>7CC0DF40BC8A4A1CBDAF9C61</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -949,6 +953,8 @@
 		</dict>
 		<key>13935CFB170DD447000C1F02</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A732D7728E3D4CCE8951F2F8</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
@@ -978,6 +984,8 @@
 		</dict>
 		<key>13935CFC170DD447000C1F02</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A732D7728E3D4CCE8951F2F8</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
@@ -1005,6 +1013,21 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>1A99B7B2719B4839B53F4D59</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-CocoaPodsSampleTests.a</string>
+			<key>path</key>
+			<string>libPods-CocoaPodsSampleTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>1B734D050781431884E4C32E</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -1019,6 +1042,45 @@
 			<string>libPods.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7CC0DF40BC8A4A1CBDAF9C61</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-CocoaPodsSampleTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>1</string>
+		</dict>
+		<key>A732D7728E3D4CCE8951F2F8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-CocoaPodsSampleTests.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods-CocoaPodsSampleTests.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
 		<key>C51A390C741541EBA79DE5E4</key>
 		<dict>
@@ -1039,6 +1101,15 @@
 		<dict>
 			<key>fileRef</key>
 			<string>1B734D050781431884E4C32E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>DDC84063D0344363B01378F5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1A99B7B2719B4839B53F4D59</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
